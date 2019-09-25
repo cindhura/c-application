@@ -28,6 +28,7 @@ namespace vehicleRouting
             if (m != 0)
             {
                 Response.Write("<script> alert('Data Inserted !!') </script>");
+                Response.Redirect("Retrieve.aspx");
             }
             else
             {
